@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono|Acme|Roboto+Condensed');
+.titulo {
+
+	font-family:Abril Fatface;
+	color:#165c16;
+	font-size:4rem;
+	font-weight: bold;	
+}
+
+
+.subtitulo {
+
+	font-family:Abril Fatface;
+}
+
+.logo {
+	width: 25%;
+}
+.slider {
+	background-image: url("../img/fondo.jpg");
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+}	
+
+.border {
+	border:solid 1px #000;
+}
+
+
+.tablebody {
+	background: #98FB98;
+}
+
+.tablehead {
+	background:	#008000;
+	font-weight: bold;
+	color: #ffffff;
+}
+.well {
+	background-color: #008000;
+	color:#FFFFFF;
+	border-radius: 15px 50px;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+
+table {
+	font-family: Roboto Mono;
+}
+
+nav {
+	font-family: Acme;
+	font-size: 20px;
+}
+
+/* Estilo para solucionar el problema de que la abrra del menu tapara el contenido.*/
+body { 
+	padding-top: 50px; 
+	background-color: #FFFFFF;
+	font-family: Roboto+Condensed;
+}
+
